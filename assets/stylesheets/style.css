@@ -1,0 +1,63 @@
+body {
+  background-color: #000;
+}
+
+.color-test {
+  background-color: #777;
+  min-height: 860px;
+}
+
+.logo {
+  color: #FFF;
+  font-size: 2.2em;
+  padding: 10px;
+  /* border: 2px solid red; */
+  font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+.button{
+  /* background-color: #333; */
+  padding: 20px;
+}
+
+.content-row{
+  color: #FFF;
+  font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+  min-height: 250px;
+  /* background-color: #555; */
+  padding-top: 100px;
+}
+
+.header-row{
+  /* background-color: #333; */
+}
+
+.splash{
+  font-family: 'Poppins';font-size: 40px;
+  /* background-color: #333; */
+  padding: 15px;
+}
+
+.splash-content{
+  font-family: 'Poppins';font-size: 16px;
+  /* background-color: #222; */
+  padding: 15px;
+}
+
+.icon-video{
+  padding-right: 15px
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
